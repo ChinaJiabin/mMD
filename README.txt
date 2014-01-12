@@ -1,7 +1,7 @@
 mMD
 ===
 
-A free software for  molecular-dynamics simulation written by matlab and output vtk files.
+A free software for  molecular-dynamics simulation written by matlab!
 
 Software required：
 
@@ -22,11 +22,19 @@ How to use mMD ?
    create three files: force.m     ( The force funciton bewteen moleculars )   
                        generator.m ( Initialize position and velocity of molecular )
                        parameter.m ( The paramters needed for simulation )
+
+   You can reference the existen case files: universal gravitation and atom 
    
  3.>>main.m
 
  4.After simulation,you will see a vtk file on the current path.
-   Now you can open paraview for visualization and you can reference python sricpts(mMD/visualization/). 
+   Now you can open paraview for visualization and the python sricpts(mMD/visualization)
+   may help you.
+   Tip:
+   To run the python sricpts in the paraview:Tools——>Python shell——>Run Sricpt
+   Do some changes to the python scripts before runing ! 
+========================================================================================
+Author mail：489509928@qq.com
    
 
 
