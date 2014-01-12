@@ -33,7 +33,8 @@ How to use mMD ?
    Tip:
    To run the python sricpts in the paraview:Tools——>Python shell——>Run Sricpt
    Do some changes to the python scripts before runing ! 
-========================================================================================
+   
+===
 Author mail：489509928@qq.com
    
 
