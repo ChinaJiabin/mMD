@@ -1,5 +1,5 @@
 %fid=fopen([file_path,'vtk/particle_', file_str_count,'.vtk'],'w');
-fid=fopen(['vtk/',file_str_count,'.vtk'],'w');
+fid=fopen(['vtk/data',file_str_count,'.vtk'],'w');
 %--------------------------------------------------------------------------
 %Header
 fprintf(fid,'%s\n','# vtk DataFile Version 3.1 ');
