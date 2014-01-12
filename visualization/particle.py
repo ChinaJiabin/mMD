@@ -9,6 +9,7 @@ file_number=1500;
                                    
 filepath='C:\\Users\\jiabin\\Documents\\MATLAB\\MD-atom_1\\universal gravitation\\vtk'
 filename = ("%05i.vtk" % i for i in count(1))
+
 image_path='C:\\Users\\jiabin\\Documents\\MATLAB\\MD-atom_1\\universal gravitation\\picture'
 image_filename=("%05i.png" % i for i in count(1))
 
@@ -16,10 +17,10 @@ image_filename=("%05i.png" % i for i in count(1))
 #Create spheres
 
 while file_number:
+                                   
      file_number=file_number-1;
      sphere=LegacyVTKReader( FileNames=[filepath+'\\'+next(filename)] )
 
-    # Show(wall)
      Show(sphere)
      sphere_dp = GetActiveSource()
      Glyph_sphere = Glyph( GlyphType="Sphere", GlyphTransform="Transform2" )
