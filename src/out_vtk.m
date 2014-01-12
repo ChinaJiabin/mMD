@@ -31,11 +31,5 @@ fprintf(fid,'%e\n',vel(:,i)');
 fprintf(fid,'\n');
 end
 
-%{
-fprintf(fid,'%s\n',['VECTORS ','velocity', ' float']);
-%fprintf(fid,'%s\n','LOOKUP_TABLE default');
-fprintf(fid,'%e   %e  %e\n',vel');
-fprintf(fid,'\n');
-%}
 %--------------------------------------------------------------------------
 fclose(fid);
