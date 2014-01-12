@@ -30,7 +30,7 @@ How to use mMD ?
  4.After simulation,you will see a vtk file on the current path.
    Now you can open paraview for visualization and the python sricpts(mMD/visualization)
    may help you.
-   Tip:
+   Tips:
    To run the python sricpts in the paraview:Tools——>Python shell——>Run Sricpt
    Do some changes to the python scripts before runing ! 
    
