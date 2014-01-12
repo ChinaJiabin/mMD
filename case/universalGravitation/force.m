@@ -1,7 +1,8 @@
 function f=force(vec_rel_pos)
 
 len=sqrt( sum(vec_rel_pos.^2,2) );
-id=len==0; len(id)=1;
+id=len==0; 
+len(id)=1;
 
 %--------------------------------
 fabs=len.^(-2); 
