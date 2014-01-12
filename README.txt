@@ -6,7 +6,7 @@ A free software for  molecular-dynamics simulation written by matlab!
 Software required：
 
 1.Matlab
-2.paraView（A open source software which can be downloaded: www.paraview.org ）
+2.ParaView（A open source software which can be downloaded: www.paraview.org ）
 
 How to use mMD ?
 
