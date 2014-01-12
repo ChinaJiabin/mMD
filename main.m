@@ -12,6 +12,7 @@ while time<time_end
     
     %----------------------------------
     %Leapfrog method
+    
     accel;%Update accelerated velocity
     vel=vel+0.5*timestep*vel_accel;
 
@@ -19,6 +20,7 @@ while time<time_end
 
     accel;%Update accelerated velocity
     vel=vel+0.5*timestep*vel_accel;
+    
     %----------------------------------
     
 end
