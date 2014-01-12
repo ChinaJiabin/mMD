@@ -13,14 +13,6 @@ image_path='C:\\Users\\jiabin\\Documents\\MATLAB\\MD-atom_1\\universal gravitati
 image_filename=("%05i.png" % i for i in count(1))
 
 ########################################################################################
-#Create wall
-"""
-wall=LegacyVTKReader( FileNames=[filepath+'\\wall.vtk'] )
-wall_dp=GetActiveSource()
-wall_dp=GetDisplayProperties(wall_dp)
-wall_dp.Opacity=0.4;
-"""
-########################################################################################
 #Create spheres
 
 while file_number:
